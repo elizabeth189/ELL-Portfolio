@@ -1,0 +1,157 @@
+body {
+    background-color: #a1c97973;
+    margin: auto;
+}
+
+header {
+    padding: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    background-color: #229559;
+    color: #140f0f;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+header nav {
+    padding-top: 10px;
+    margin-right: 20px;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+    text-decoration: underline;
+}
+
+.main-image {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image:url("../images/header.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+a {
+    color: #070707;
+    text-decoration: none;
+}
+
+p {
+    font-size: 25px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+main #about-me{
+    justify-content: space-evenly;
+    width: fit-content;
+    height: fit-content;
+}
+
+main h2 {
+    text-decoration:overline;
+    margin-right: auto;
+}
+
+main section {
+    display: flex;
+    margin-left: 30px;
+    height:fit-content;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black; 
+}
+
+main img {
+    padding: 40px;
+    width: 400px; 
+    height: 400px;
+    border-radius: 50%;
+}
+
+main h3{
+    font-style: italic;
+    font-weight: bolder ;
+    font-size: 25px;
+}
+
+#projects {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.container1{
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vh;
+    border-radius: 4px solid rgb(71, 49, 49);
+    color: rgb(86, 143, 86);
+    background-image: url(../images/active.jpg);
+    margin: 0 20px 20px;
+    margin-right: 40vh;
+    text-align: center;
+}
+.container2 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 75vh;
+    border-radius: 4px solid black;
+    color: rgb(86, 143, 86);
+    background-image: url(../images/active2.jpg);
+    margin: 0 20px 20px;
+    text-align: center;
+}
+
+.container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50vh;
+    border-radius: 4px solid black;
+    color: rgb(86, 143, 86);
+    background-image: url(../images/boxes.jpg);
+    margin: 0 20px 20px;
+    text-align: center;
+}
+
+.container:hover{
+    box-shadow: inset 0px 0px 8px darkgreen, 0 0 15px darkgreen;
+}
+
+.container1:hover{
+    box-shadow: inset 0px 0px 8px darkgreen, 0 0 15px darkgreen;
+}
+
+.container2:hover{
+    box-shadow: inset 0px 0px 8px darkgreen, 0 0 15px darkgreen;
+}
+
+#contact-me li {
+    list-style-type: none;
+    display: none;
+    display: inline-block;
+    margin-right: 40vh;
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+.footer {
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px ;
+}
+
